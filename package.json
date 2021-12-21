@@ -1,0 +1,19 @@
+{
+  "name": "ConnectToVoice",
+  "version": "1.1.0",
+  "description": "Connect a bot to VC, do nothing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Seth VN",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@discordjs/voice": "^0.7.5",
+    "discord.js": "^13.3.1",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-static": "^4.4.0",
+    "nano": "^9.0.5"
+  },
+  "keywords": []
+}

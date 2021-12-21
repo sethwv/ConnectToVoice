@@ -1,0 +1,7 @@
+{
+    "TOKEN": "TOKEN",
+    "GUILDID": "GUILD ID",
+    "CHANNELID": "CHANNEL ID",
+    "DEAFENED": false,
+    "MICMUTED": false
+}
