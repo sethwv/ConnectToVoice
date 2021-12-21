@@ -3,5 +3,6 @@
     "GUILDID": "GUILD ID",
     "CHANNELID": "CHANNEL ID",
     "DEAFENED": false,
-    "MICMUTED": false
+    "MICMUTED": false,
+    "STATUS": "invisible"
 }
