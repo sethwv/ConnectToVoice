@@ -5,11 +5,7 @@ const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 client.login(config.TOKEN);
 
 client.on("ready", () => {
-<<<<<<< HEAD
     client.user.setStatus(config.STATUS ?? 'invisible');
-=======
-    client.user.setStatus(config.STATUS??'invisible');
->>>>>>> 05781d0aa32b8454c8f537625d2a7539e00725be
     const guild = client.guilds.cache.get(config.GUILDID);
     try {
         joinVoiceChannel({
