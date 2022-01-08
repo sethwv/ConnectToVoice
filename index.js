@@ -4,7 +4,7 @@ const config = require("./config.json");
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 client.login(config.TOKEN);
 
-client.on("ready", () => {
+client.once("ready", () => {
     client.user.setStatus(config.STATUS ?? 'invisible');
     const guild = client.guilds.cache.get(config.GUILDID);
     try {
@@ -20,5 +20,11 @@ client.on("ready", () => {
     } catch (e) {
         console.error('Something went wrong while connecting to the voice channel\nMake sure that TOKEN, GUILDID, and CHANNELID are specified in config.json');
         process.exit(1)
+    }
+});
+
+client.on("voiceStateUpdate", (oldState, newState) => {
+    if(oldState.id === client.user.id){
+        
     }
 });
