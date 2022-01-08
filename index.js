@@ -25,6 +25,7 @@ client.once("ready", () => {
 
 client.on("voiceStateUpdate", (oldState, newState) => {
     if(oldState.id === client.user.id){
-        
+        console.log(oldState);
+        console.log(newState);
     }
 });
