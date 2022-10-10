@@ -1,3 +1,5 @@
+#This project has been archived.
+
 # ConnectToVoice
 This is a simple discord.js bot to connect a bot user to a voice channel.
 
